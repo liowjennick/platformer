@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 if (hascontrol) {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
@@ -68,6 +67,10 @@ if (hascontrol) {
 	} else {
 		image_speed = 1;
 		// idle
+		if (sprite_index == sPlayerA) {
+			audio_play_sound(snLanding, 7, false);
+		}
+
 		if (horizontal_speed == 0) {
 			sprite_index = sPlayer;
 		} else {

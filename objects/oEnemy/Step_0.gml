@@ -45,5 +45,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 
 // change direction depending on movement
 if (horizontal_speed != 0) {
-	image_xscale = sign(horizontal_speed);
+	image_xscale = sign(horizontal_speed) * size;
 }
+
+image_yscale = size;
