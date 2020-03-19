@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "05fa1362-ba78-4f97-a0e7-4c87ec14f4bd",
+            "Value": {
+                "id": "7f365d30-665e-42e4-a6bc-67884c328a44",
+                "resourcePath": "views\/05fa1362-ba78-4f97-a0e7-4c87ec14f4bd.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "07f685d5-81ce-4c79-b2e0-a4df7cf8404b",
             "Value": {
                 "id": "987b2107-2ae0-43ea-abce-1322d821c754",
                 "resourcePath": "views\/07f685d5-81ce-4c79-b2e0-a4df7cf8404b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0b60dab2-29e5-42ec-9d34-829d32a5641b",
+            "Value": {
+                "id": "1638dcea-06f7-4600-a533-06f7a61c522c",
+                "resourcePath": "objects\/oText\/oText.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -83,6 +99,14 @@
             "Value": {
                 "id": "61fd41f3-a884-477f-b60b-577c5501b004",
                 "resourcePath": "sprites\/sGun\/sGun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1f31212e-0bb9-4951-8302-68fd19a05728",
+            "Value": {
+                "id": "802f7da9-fd1a-4d95-a6b9-bbb1669ca67c",
+                "resourcePath": "sprites\/sSign\/sSign.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -159,6 +183,14 @@
             }
         },
         {
+            "Key": "613bb76f-a640-4256-ae12-f977d9e26fd5",
+            "Value": {
+                "id": "f37ec9c4-6554-480c-ab17-8f58f2a4428b",
+                "resourcePath": "sprites\/sTextBoxArrow\/sTextBoxArrow.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "629e197d-a8d9-403d-9bf6-dba2053c7bc6",
             "Value": {
                 "id": "46252b9b-c8cf-4533-832b-8290a7878321",
@@ -172,6 +204,14 @@
                 "id": "b25bac2e-1e74-4d54-b18f-3264abf9ca5c",
                 "resourcePath": "sounds\/snFootstep1\/snFootstep1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "6b0463a5-883f-4222-9056-14c3f979a813",
+            "Value": {
+                "id": "f7812b2f-9508-4fd9-bf1c-4312a88b7fa2",
+                "resourcePath": "objects\/oSign\/oSign.yy",
+                "resourceType": "GMObject"
             }
         },
         {
