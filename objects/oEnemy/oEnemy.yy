@@ -15,16 +15,6 @@
             "m_owner": "814e6615-8073-4d1b-8e2c-3a39ffdb81e5"
         },
         {
-            "id": "4398a245-0070-4c5c-97d4-789e026863c9",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "814e6615-8073-4d1b-8e2c-3a39ffdb81e5"
-        },
-        {
             "id": "fdb7c3ad-11b3-4f4f-9770-86ae678dd93c",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -36,8 +26,17 @@
         }
     ],
     "maskSpriteId": "6b96db20-53e9-4015-bf3a-4a576dee8309",
-    "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": [
+        {
+            "id": "15fc5e11-34bc-44fe-abbb-ffb64b38904f",
+            "modelName": "GMOverriddenProperty",
+            "mvc": "1.0",
+            "objectId": "7f3712b7-3667-40e6-93fc-f961f9578c41",
+            "propertyId": "b3ebefcf-2e3a-458c-8b81-1fd1dce869de",
+            "value": "5"
+        }
+    ],
+    "parentObjectId": "7f3712b7-3667-40e6-93fc-f961f9578c41",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -109,34 +108,6 @@
             "varType": 0
         },
         {
-            "id": "3cac3bf6-9baf-45bb-9410-414e5c24c3ee",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "4",
-            "varName": "hp",
-            "varType": 0
-        },
-        {
-            "id": "e83b3c2f-7507-41fb-aa47-5a567b973b0b",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "flash",
-            "varType": 0
-        },
-        {
             "id": "159142a4-1929-4be5-8292-0cd318c0f148",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -163,6 +134,34 @@
             "value": "1",
             "varName": "size",
             "varType": 0
+        },
+        {
+            "id": "afda9ffa-3cc4-4e6b-ad47-4855ccd77609",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "afraidOfHeights",
+            "varType": 3
+        },
+        {
+            "id": "fc476a30-1ba9-480f-9dcf-db6c103acdf3",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "False",
+            "varName": "grounded",
+            "varType": 3
         }
     ],
     "solid": false,

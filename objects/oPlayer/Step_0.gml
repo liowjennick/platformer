@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+can_jump --;
 
 if (hascontrol) {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -28,8 +29,9 @@ if (hascontrol) {
 	vertical_speed = vertical_speed + grav;
 
 	// Jump
-	if (place_meeting(x, y + 1, oWall)) && (key_jump) {
+	if (can_jump) && (key_jump) {
 		vertical_speed = -3;
+		can_jump = 0;
 	}
 
 	// Horizontal Collision
@@ -65,6 +67,7 @@ if (hascontrol) {
 			image_index = 0;
 		}
 	} else {
+		can_jump = 10;
 		image_speed = 1;
 		// idle
 		if (sprite_index == sPlayerA) {

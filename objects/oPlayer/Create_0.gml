@@ -9,3 +9,5 @@ hascontrol = true;
 hitfrom = 0;
 hp = 1;
 can_be_damage = true;
+
+can_jump = 0;

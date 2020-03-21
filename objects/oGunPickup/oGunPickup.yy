@@ -1,38 +1,28 @@
 {
-    "id": "9196e4b0-b953-4db2-a1d6-a0e48e657f90",
+    "id": "02d44f5f-e76e-40f3-96b5-8a4336a6fe90",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBullet",
+    "name": "oGunPickup",
     "eventList": [
         {
-            "id": "6fc0f185-e103-4fc6-8783-a526ba7e71ff",
+            "id": "3ad7475a-f3fe-4f24-841e-b8389d9b2324",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "9196e4b0-b953-4db2-a1d6-a0e48e657f90"
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "02d44f5f-e76e-40f3-96b5-8a4336a6fe90"
         },
         {
-            "id": "111a4ed4-d587-4a1e-aaa1-79290ac50a02",
+            "id": "04192edc-e3c5-4d0f-a1d8-23d57ecd7f88",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 77,
-            "eventtype": 8,
-            "m_owner": "9196e4b0-b953-4db2-a1d6-a0e48e657f90"
-        },
-        {
-            "id": "094b1f5b-13e7-4d34-9578-1aba73beb30c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "7f3712b7-3667-40e6-93fc-f961f9578c41",
+            "collisionObjectId": "998e38dd-9497-43d4-b137-f09e89379705",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "9196e4b0-b953-4db2-a1d6-a0e48e657f90"
+            "m_owner": "02d44f5f-e76e-40f3-96b5-8a4336a6fe90"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "a04b7d38-cf80-4865-a21c-0d62b026881e",
+    "spriteId": "abc9e15e-043f-48ec-b388-daf7ca3e2763",
     "visible": true
 }

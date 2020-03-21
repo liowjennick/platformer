@@ -1,5 +1,10 @@
 vertical_speed = vertical_speed + grav;
 
+// Don't walk off edges
+if (grounded) && (afraidOfHeights) && (!place_meeting(x + horizontal_speed, y + 1, oWall)) {
+	horizontal_speed = -horizontal_speed;
+}
+
 // Horizontal Collision
 if (place_meeting(x + horizontal_speed, y, oWall)) {
 	while (!place_meeting(x + sign(horizontal_speed), y, oWall)) {
@@ -23,6 +28,7 @@ y = y + vertical_speed;
 // Animation
 // check if not touching ground
 if (!place_meeting(x, y + 1, oWall)) {
+	grounded = false;
 	sprite_index = sEnemyA;
 	image_speed = 0;
 	
@@ -33,6 +39,7 @@ if (!place_meeting(x, y + 1, oWall)) {
 		image_index = 0;
 	}
 } else {
+	grounded = true;
 	image_speed = 1;
 	// idle
 	if (horizontal_speed == 0) {
